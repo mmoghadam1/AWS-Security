@@ -8,8 +8,6 @@ running = ec2.instances.filter(Filters=[{'Name': 'instance-state-name', 'Values'
 
 
 
-pp = pprint.PrettyPrinter(indent=4)
-x = ec2.instances.filter()
 for instance in ec2.instances.all():
 
 	
